@@ -22,7 +22,7 @@ const postContact = async (req, res) => {
 
     // check recaptcha token
     const recaptchaResponse = await axios.post(
-      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${token}`
+      `https://www.google.com/recaptcha/api/siteverify?secret=6LcxxRcjAAAAAJPjO5CKGXtYM-9IKJtD9Hc4nD3t&response=${token}`
     );
 
     if (recaptchaResponse.data.success) {
