@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "title": "ひな人形",
+  "title_en": "Hina Dolls",
+  "slug": "hina",
+  "image": "https://res.cloudinary.com/nt1110/image/upload/v1660900938/koikko/category/category-hina_yianm4.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660901015596"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662354302972"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "62ff56ca0d7e5a45810e7727"
+  },
+  "title": "五月人形",
+  "title_en": "May Dolls",
+  "slug": "gogatsu",
+  "image": "https://res.cloudinary.com/nt1110/image/upload/v1660900938/koikko/category/category-may_bmic64.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660901066454"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662354302972"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "62ff56e30d7e5a45810e7729"
+  },
+  "title": "和わーくす",
+  "title_en": "Japanese Works",
+  "slug": "wa-works",
+  "image": "https://res.cloudinary.com/nt1110/image/upload/v1660900938/koikko/category/category-works_cxe7nm.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660901091843"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662354302972"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "62ff56fc0d7e5a45810e772b"
+  },
+  "title": "Anima",
+  "title_en": "Animal Concept",
+  "slug": "anima",
+  "image": "https://res.cloudinary.com/nt1110/image/upload/v1660900938/koikko/category/category-anima_dba7cj.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660901116293"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662368786259"
+    }
+  },
+  "__v": 0,
+  "public": true
+}]

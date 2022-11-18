@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "63061fdf3feb667d07ec014a"
+  },
+  "title": "親王飾り",
+  "title_en": "King Ornament",
+  "slug": "shinno",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345759953"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630620183feb667d07ec0150"
+  },
+  "title": "15人飾り",
+  "title_en": "15 Hina Dolls",
+  "slug": "15kazari",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345816089"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "6306201d3feb667d07ec0152"
+  },
+  "title": "立雛",
+  "title_en": "Standing Hina Dolls",
+  "slug": "tachibina",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345821987"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630620673feb667d07ec0160"
+  },
+  "title": "鎧着大将",
+  "title_en": "Armor May Dolls",
+  "slug": "yoroigi",
+  "category": {
+    "$oid": "62ff56ca0d7e5a45810e7727"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345895544"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630620573feb667d07ec015e"
+  },
+  "title": "衣裳着ケース",
+  "title_en": "Glass Display Case Box",
+  "slug": "hina-ishogi",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345879231"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "6306206d3feb667d07ec0162"
+  },
+  "title": "衣裳着ケース",
+  "title_en": "Glass Display Case Box",
+  "slug": "gogatsu-ishogi",
+  "category": {
+    "$oid": "62ff56ca0d7e5a45810e7727"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345901753"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "6306210c3feb667d07ec017f"
+  },
+  "title": "ことわざざむらい",
+  "title_en": "Item Lists",
+  "slug": "ct17",
+  "category": {
+    "$oid": "62ff56e30d7e5a45810e7729"
+  },
+  "amount": 1,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661346060336"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630621583feb667d07ec0192"
+  },
+  "title": "anima",
+  "title_en": "Item Lists",
+  "slug": "ct20",
+  "category": {
+    "$oid": "62ff56fc0d7e5a45810e772b"
+  },
+  "amount": 5,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661346136014"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630621053feb667d07ec017d"
+  },
+  "title": "和works",
+  "title_en": "Item Lists",
+  "slug": "ct19",
+  "category": {
+    "$oid": "62ff56e30d7e5a45810e7729"
+  },
+  "amount": 3,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661346053360"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630620013feb667d07ec014c"
+  },
+  "title": "5人飾り",
+  "title_en": "5 Hina Dolls",
+  "slug": "5kazari",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345793179"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630621693feb667d07ec0194"
+  },
+  "title": "inseutum",
+  "title_en": "Item Lists",
+  "slug": "ct18",
+  "category": {
+    "$oid": "62ff56fc0d7e5a45810e772b"
+  },
+  "amount": 3,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661346153897"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "6306200f3feb667d07ec014e"
+  },
+  "title": "10人飾り",
+  "title_en": "10 Hina Dolls",
+  "slug": "10kazari",
+  "category": {
+    "$oid": "62ff56970d7e5a45810e7724"
+  },
+  "amount": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661345807313"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+},{
+  "_id": {
+    "$oid": "630621123feb667d07ec0181"
+  },
+  "title": "アロマ屋シリーズ",
+  "title_en": "Item Lists",
+  "slug": "ct16",
+  "category": {
+    "$oid": "62ff56e30d7e5a45810e7729"
+  },
+  "amount": 3,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661346066475"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662355078380"
+    }
+  },
+  "__v": 0,
+  "public": true
+}]

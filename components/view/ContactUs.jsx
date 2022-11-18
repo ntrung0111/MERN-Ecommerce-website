@@ -178,7 +178,7 @@ const ContactUs = ({ product, setContactForm }) => {
           <div className="recaptcha">
             <ReCAPTCHA
               ref={recaptchaRef}
-              sitekey={process.env.RECAPTCHA_SITE_KEY}
+              sitekey={"6LcxxRcjAAAAAJPjO5CKGXtYM-9IKJtD9Hc4nD3t"}
               onChange={() => setVerified(true)}
               onExpired={() => {
                 recaptchaRef.current?.reset();
