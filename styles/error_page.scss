@@ -1,0 +1,48 @@
+.error-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.7em;
+
+    .error-content {
+        .error-icon {
+            font-size: 12em;
+            color: #d5d7dd;
+        }
+
+        .error-message {
+            font-size: 1.4em;
+            font-weight: 400;
+            line-height: 1.7em;
+            color: #737681;
+        }
+
+        .button {
+            display: inline-block;
+            background: #4c4e57;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 32px;
+            margin: 48px auto 0;
+            border-radius: 4px;
+            font-size: 1.1em;
+            line-height: 1.7em;
+            
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .error-wrap {
+        .error-content {
+            width: 90%;
+        }
+    }
+}

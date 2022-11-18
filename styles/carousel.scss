@@ -1,0 +1,157 @@
+.carousel {
+    position: relative;
+
+    @media screen and (max-width: 991px) {
+        margin-top: 80px;
+    }
+
+    .carousel-on {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 92%;
+        max-width: 1196px;
+
+        @media screen and (max-width: 991px) {
+            width: 100%;
+            height: 100%;
+            max-width: unset;
+        }
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            margin: 1.875vw auto 0;
+
+            a {
+                .logo {
+                    width: 184px;
+                    margin-top: 2.3vw;
+                }
+            }
+
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+        }
+
+
+        >.text {
+            display: block;
+            width: 356px;
+            margin: 42px 0 0 6px;
+
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+        }
+
+        .text-sp {
+            display: none;
+        }
+
+        @media screen and (max-width: 991px) {
+            .text-sp {
+                display: block;
+                position: absolute;
+                top: 6vw;
+                left: 11.5vw;
+                z-index: 1000;
+                width: 4vw;
+                max-width: 30px;
+            }
+        }
+
+        nav {
+            margin-top: 16vw;
+
+            ul {
+                display: flex;
+
+                li {
+                    div.emergence {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 200px;
+
+                        .text {
+                            width: 18px;
+                        }
+
+                        .arrow {
+                            height: 50px;
+                            transition: all ease .34s;
+                        } 
+                    }
+
+                    &:hover {
+                        .arrow {
+                            transform: translateY(4px);
+                        }
+                    }
+
+                    &:nth-of-type(n+2) {
+                        margin-left: 60px;
+                    }
+
+                    &:nth-of-type(2) {
+                        div.emergence {
+                            transition-delay: 0.5s;
+                        }
+                    }
+
+                    &:nth-of-type(3) {
+                        div.emergence {
+                            transition-delay: 0.75s;
+                        }
+                    }
+
+                    &:nth-of-type(4) {
+                        div.emergence {
+                            transition-delay: 1s;
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+        }
+    }
+
+    .carousel-under {
+        position: relative;
+        z-index: 1;
+
+        .carousel-item {
+            display: block !important;
+
+            img {
+                display: none;
+
+                @media screen and (max-width: 991px) {
+                    display: block;
+                }
+            }
+
+            .carousel-image {
+                display: block;
+                width: 100%;
+                height: 52.6vw;
+                max-height: 830px;
+                min-height: 700px;
+                background-position: center bottom;
+                background-size: cover;
+
+                @media screen and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

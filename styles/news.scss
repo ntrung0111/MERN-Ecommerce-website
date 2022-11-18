@@ -1,0 +1,199 @@
+.news {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 92%;
+        max-width: 1338px;
+        margin: 0 auto;
+        padding: 42px 72px;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%);
+        position: relative;
+        top: -10px;
+        z-index: 2;
+
+        .news {
+            font-size: 1.4rem;
+            letter-spacing: .1em;
+            display: flex;
+
+            .news-title {
+                -webkit-writing-mode: vertical-rl;
+                -ms-writing-mode: tb-rl;
+                writing-mode: vertical-rl;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                font-size: 1.2rem;
+                font-weight: 700;
+
+                img {
+                    display: block;
+                    margin-top: 64px;
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .news-content {
+                margin-left: 54px;
+
+                .news-content-item {
+
+                    .news-content-item-time {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        letter-spacing: .35em;
+                    }
+
+                    .news-content-item-title {
+                        display: block;
+                        letter-spacing: normal;
+                    }
+
+                    &:nth-child(n+2) {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .guide {
+            @media screen and (min-width: 992px) and (max-width: 1200px) {
+                margin-left: 40px;
+            }
+
+            .guide-container {
+                display: flex;
+                padding: 40px 36px 40px 66px;
+                border: 1px solid #dadada;
+                border-radius: 6px;
+                align-items: center;
+
+                .guide-title {
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: 700;
+                        letter-spacing: .35em;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+                        letter-spacing: .35em;
+                        display: block;
+                        margin-top: 20px;
+                    }
+                }
+
+                .guide-banner {
+                    margin-left: 48px;
+
+                    img {
+                        display: block;
+                        width: 112px;
+                    }
+                }
+            }
+
+
+            .guide-social {
+                float: right;
+                margin-top: 16px;
+
+                img {
+                    display: block;
+                    width: 110px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .container {
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: 0 2.5px 7.5px 0 rgb(0 0 0 / 5%);
+            border-radius: 3px;
+            
+            .news {
+                flex-direction: column;
+                width: 100%;
+
+                .news-title {
+                    -webkit-writing-mode: horizontal-tb;
+                    -ms-writing-mode: lr-tb;
+                    writing-mode: horizontal-tb;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 1.1rem;
+                        font-weight: 700;
+                        letter-spacing: .3em;
+                    }
+
+                    img {
+                        margin-top: 0;
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+
+                .news-content {
+                    margin: 20px 0 0;
+
+                    .news-content-item {
+                        .news-content-item-time {
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+
+                        .news-content-item-title {
+                            font-size: 1.2rem;
+                            margin-top: 6px;
+                        }
+                    }
+                }
+            }
+
+            .guide {
+                margin-top: 50px;
+                width: 100%;
+
+                .guide-container {
+                    padding: 24px 16px 24px 24px;
+                    justify-content: space-between;
+
+                    .guide-title {
+                        h2 {
+                            font-size: 1.4rem;
+                        }
+
+                        .guide-text {
+                            margin-top: 6px;
+                            font-size: 1.1rem;
+                        }
+                    }
+
+                    .guide-banner {
+                        margin: 0;
+
+                        img {
+                            width: 60px;
+                        }
+                    }
+                }
+
+                .guide-social {
+                    float: left;
+                    margin-top: 20px;
+
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

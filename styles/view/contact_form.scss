@@ -1,0 +1,206 @@
+.contactForm-overlay {
+    position: fixed;
+    z-index: 9997;
+    top: -5000px;
+    right: -5000px;
+    bottom: -5000px;
+    left: -5000px;
+    background: rgba(0, 0, 0, 0.75);
+    display: block
+}
+
+.contactForm-container {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 48px auto;
+    padding: 0 24px;
+    width: 92%;
+    max-width: 880px;
+    background-color: #fff;
+    text-align: left;
+    overflow-y: scroll;
+
+    .contactForm-closeButton {
+        position: absolute;
+        top: 6px;
+        right: 12px;
+        width: 50px;
+        height: 50px;
+        color: #95979c;
+        transition: color 0.2s;
+        cursor: pointer;
+
+        &:hover {
+            color: #2b2e38;
+        }
+
+        &:before {
+            content: "×";
+            font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+            font-size: 50px;
+            line-height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    h1.pageTitle {
+        font-size: 2.2rem;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        word-break: break-word;
+    }
+
+    .product-detail {
+        width: 100%;
+        display: flex;
+        margin: 16px auto 24px;
+
+        img {
+            width: 20%;
+        }
+
+        p {
+            margin-left: 16px;
+        }
+    }
+
+    form {
+        table.table-info {
+            width: 100%;
+            margin: 8px 0 16px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            -webkit-border-horizontal-spacing: 1px;
+            -webkit-border-vertical-spacing: 1px;
+            background-color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+
+            tr.table-content {
+                background-color: #fff;
+
+                th,
+                td {
+                    padding: 12px 8px;
+                    text-align: left;
+                }
+
+                th {
+                    background: #e6e6e6;
+                    width: 210px;
+
+                    em.required {
+                        background: none repeat scroll 0 0 #DC3333;
+                        color: #FFFFFF;
+                        float: right;
+                        font-size: 11px;
+                        font-weight: normal;
+                        padding: 1px 3px 0;
+                        font-style: normal;
+                        margin-left: 8px;
+                    }
+                }
+
+                td {
+
+                    input,
+                    textarea {
+                        width: 92%;
+                        padding: 8px;
+                        background: none repeat scroll 0 0 #FFFFFF;
+                        border: 1px solid #F0C7C7;
+                    }
+
+                    textarea {
+                        resize: vertical;
+                        min-height: 120px;
+                    }
+
+                    .error {
+                        background: url(/images/errorIcon.png) no-repeat scroll left top transparent;
+                        color: #ff0000;
+                        margin: 0;
+                        padding-left: 20px;
+                    }
+
+                    .note {
+                        font-size: 1.2rem;
+                        letter-spacing: .1em;
+                        margin: 8px 0 0;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 991px) {
+                tr.table-content {
+                    display: flex;
+                    flex-direction: column;
+
+                    th {
+                        background-color: #E3EFFE;
+                        width: unset;
+
+                        em.required {
+                            float: unset;
+                        }
+
+                        b {
+                            float: left;
+                        }
+                    }
+
+                    td {
+                        border-top: 1px solid #ccc;
+                        border-bottom: 1px solid #ccc;
+
+                        input,
+                        textarea {
+                            width: 100%;
+                        }
+
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .recaptcha {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            display: block;
+            margin: 64px auto 32px;
+            padding: 12px 32px;
+            background: #333;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &[disabled] {
+                background: #ddd;
+                pointer-events: none;
+            }
+        }
+    }
+}

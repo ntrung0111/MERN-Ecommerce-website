@@ -1,0 +1,51 @@
+.__page-view {
+    background-image: url("/images/bg-pc.png");
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: top;
+
+    @media screen and (max-width: 991px) {
+        background-image: url("/images/bg-sp.png");
+        background-size: 70px;
+    }
+
+    .header-view {
+        .cart-badge {
+            top: 8px!important;
+            right: 6px!important;
+        }
+    }
+}
+
+// HEADER 
+@import "header.scss";
+
+// BREADCRUMB 
+@import "breadcrumb.scss";
+
+// SLIDER 
+@import "slider.scss";
+
+// PRODUCT DETAIL
+@import "product_detail.scss";
+
+// PRODUCT RELATED
+@import "product_related.scss";
+
+// CART PAGE
+@import "cart_page.scss";
+
+// CATEGORY PAGE
+@import "category_page.scss";
+
+// PAGINATION
+@import "pagination.scss";
+
+// CHECK PAGE
+@import "check_page.scss";
+
+// PDF
+@import "pdf.scss";
+
+// CONTACT FORM
+@import "contact_form.scss";

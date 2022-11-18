@@ -1,0 +1,45 @@
+.home {
+    background-image: url("/images/bg-pc.png");
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: top;
+
+    .home-product {
+        width: 92%;
+        max-width: 1196px;
+        margin: 170px auto 0;
+    }
+
+    // Product title components
+    .product-title {
+        .image {
+            width: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .home {
+        background-size: 75px;
+        
+        .home-product {
+            width: 88.8vw;
+            max-width: none;
+            margin: 106px auto 0;
+        }
+
+        // Product title components
+        .product-title {
+            .title {
+                margin-top: 16px;
+                font-size: 2.2rem;
+                font-weight: 700;
+            }
+
+            .text {
+                margin-top: 4px;
+                font-size: 1rem;
+            }
+        }
+    }
+}

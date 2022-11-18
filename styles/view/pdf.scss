@@ -1,0 +1,207 @@
+.pdf-content {
+    color: #000000;
+    font-size: 1.4rem;
+
+    .pdf-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 10px 10px;
+    }
+
+    .pdf-logo {
+        img {
+            width: 182px;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .pdf-greet {
+        margin: 16px 0;
+        text-align: center;
+
+        h1 {
+            margin: 0 0 10px;
+        }
+    }
+
+    .pdf-purchaseCart {
+        padding: 0 56px;
+        margin: 32px 0;
+
+        h2 {
+            margin: 12px 0 20px;
+            font-weight: 700;
+        }
+
+        .purchaseCart-header {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #333;
+        }
+
+        table.purchaseCart-cart {
+            width: 100%;
+            margin: 8px 0;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            -webkit-border-horizontal-spacing: 1px;
+            -webkit-border-vertical-spacing: 1px;
+            font-size: 14px;
+            line-height: 1.4;
+            background: #666;
+            text-align: center;
+
+            tbody {
+
+                tr {
+                    td {
+                        padding: 6px;
+                        white-space: nowrap;
+                    }
+                }
+
+                tr.purchaseCart-title {
+                    td {
+                        background-color: #ccc;
+
+                        &:nth-child(1) {
+                            width: 58%;
+                        }
+
+                        &:nth-child(2) {
+                            width: 7%;
+                        }
+                    }
+                }
+
+                tr.purchaseCart-content {
+                    background: #fff;
+
+                    td {
+                        &:nth-child(1) {
+                            text-align: left;
+
+                            img {
+                                width: 100px;
+                                vertical-align: middle;
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            text-align: right;
+                        }
+                    }
+                }
+
+                tr.purchaseCart-price {
+                    background: #fff;
+
+                    td {
+                        text-align: right;
+                        font-size: 1.7rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        table.purchaseCart-customer {
+            width: 100%;
+            margin: 8px 0 16px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            -webkit-border-horizontal-spacing: 1px;
+            -webkit-border-vertical-spacing: 1px;
+            font-size: 14px;
+            line-height: 1.4;
+            background: #666;
+            text-align: center;
+
+            tbody {
+
+                tr {
+                    td {
+                        padding: 6px;
+                        white-space: nowrap;
+                    }
+                }
+
+                tr.purchaseCart-title {
+                    td {
+                        background-color: #ccc;
+                        width: 20%;
+                    }
+                }
+
+                tr.purchaseCart-content {
+                    background: #fff;
+                }
+            }
+        }
+
+        table.purchaseCart-summary {
+            width: 100%;
+            margin: 8px 0 16px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            -webkit-border-horizontal-spacing: 1px;
+            -webkit-border-vertical-spacing: 1px;
+            font-size: 14px;
+            line-height: 1.4;
+            background: #666;
+            text-align: center;
+
+            tbody {
+                tr {
+                    background: #fff;
+
+                    td {
+                        padding: 6px;
+                        white-space: nowrap;
+                        text-align: right;
+
+                        .price {
+                            
+                            b {
+                                color: blue;
+                            }
+                        }
+
+                        hr {
+                            margin: 7px 0;
+                        }
+                        
+                        .price--final {
+                            span {
+                                font-weight: 700;
+                                color: red;
+                                font-size: 1.7rem;
+                            }
+                        }
+
+                        p.note {
+                            margin: 2px 0;
+                            display: block;
+                            font-size: 1.1rem;
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pdf-url {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+}

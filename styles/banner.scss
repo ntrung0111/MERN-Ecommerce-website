@@ -1,0 +1,340 @@
+.quote {
+    margin: 170px 0 0 20.4vw;
+    position: relative;
+
+    .title {
+        width: 24.5vw;
+        max-width: 350px;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        div.emergence:nth-child(2) {
+            margin: 105px 20px 0 0;
+            transition-delay: 0.5s;
+        }
+    }
+
+    .image {
+        width: 905px;
+        max-width: 51.8vw;
+        padding-top: 32px;
+        display: inline;
+        float: right;
+
+        .quote-image-sp {
+            display: none;
+        }
+    }
+
+    .content {
+        padding: 280px 0 0;
+        width: 26vw;
+        max-width: 350px;
+        letter-spacing: .16rem;
+        line-height: 2;
+
+        .content-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 1.8;
+            margin-bottom: 16px;
+            display: block;
+        }
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    max-width: 1100px;
+    margin: 160px auto 0;
+
+    .tech {
+        margin-top: 150px;
+        max-width: 430px;
+
+        .content {
+            margin: 40px 0 54px;
+        }
+
+        .image {
+            div.emergence:first-child {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .greet {
+        max-width: 430px;
+        position: relative;
+
+        .title {
+            position: absolute;
+            top: 0;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+
+            div.emergence:nth-child(2) {
+                margin: 140px 20px 0 0;
+                transition-delay: 0.5s;
+            }
+        }
+
+        .content {
+            margin-top: 50px;
+        }
+
+        .image {
+            max-width: 305px;
+            padding-top: 32px;
+            margin-left: auto;
+        }
+    }
+}
+
+.show {
+    width: 100%;
+    margin: 280px auto 0px;
+    padding-bottom: 40px;
+    background-color: #f7f6f5;
+    position: relative;
+    text-align: center;
+
+    .title {
+        padding-top: 188px;
+        margin-bottom: 24px;
+    }
+
+    .content {
+        max-width: 438px;
+        margin: 0 auto;
+        text-align: left;
+
+        .content-button {
+            margin: 40px auto 0;
+        }
+    }
+
+    .image {
+        max-width: 730px;
+        position: absolute;
+        top: -90px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+// p content
+.content-text {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: .1em;
+}
+
+.content-button {
+    width: 200px;
+    height: 44px;
+    margin: 32px 0 0;
+    border-radius: 6px;
+    font-size: 1.4rem;
+    letter-spacing: .42em;
+    background-color: #242424;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: opacity .3s ease;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .quote {
+        margin: 60px 0 0 13.3vw;
+
+        .title {
+            width: auto;
+            max-width: none;
+
+            div.emergence {
+                width: 20px;
+
+                &:nth-child(n+2) {
+                    width: 32px;
+                    margin: 103px 8px 0 0;
+                }
+            }
+        }
+
+        .image {
+            width: 65.3vw;
+            max-width: 500px;
+            padding-top: 47px;
+
+            .quote-image {
+                display: none;
+            }
+
+            .quote-image-sp {
+                display: block;
+            }
+        }
+
+        .content {
+            padding: 39px 0 0;
+            width: 77.6vw;
+            max-width: 100%;
+            display: inline-block;
+
+            .content-title {
+                margin-bottom: 12px;
+                font-size: 1.6rem;
+            }
+
+            .content-text {
+                font-size: 1.4rem;
+            }
+
+            .content-button {
+                font-size: 1.2rem;
+                width: 164px;
+                height: 36px;
+                margin: 32px auto 0;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    .info {
+        margin: 104px 0 0;
+        flex-direction: column;
+        width: 100%;
+
+        .tech {
+            width: 77.6vw;
+            max-width: none;
+            margin: 0 auto;
+            text-align: left;
+
+            .title {
+                div.emergence {
+                    width: 224px;
+                }
+            }
+
+            .content {
+                margin: 24px 0 42px;
+
+                .content-text {
+                    font-size: 1.4rem;
+                    line-height: 2;
+                }
+            }
+
+            .image {
+                img {
+                    &:first-child {
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+
+        .greet {
+            margin-top: 104px;
+            max-width: none;
+
+            .title {
+                margin-left: 14.4vw;
+
+                div.emergence {
+                    width: 20px;
+
+                    &:nth-child(2) {
+                        width: 32px;
+                        margin: 100px 12px 0 0;
+                    }
+                }
+            }
+
+            .image {
+                padding-top: 50px;
+                max-width: 400px;
+                display: inline;
+                float: right;
+
+                img {
+                    width: 62.8vw;
+                    max-width: 400px;
+                }
+            }
+
+            .content {
+                display: inline-block;
+                margin: 36px auto 0;
+                width: 100%;
+                
+                .content-text {
+                    font-size: 1.4rem;
+                    line-height: 2;
+                    width: 77.6vw;
+                    margin: 0 auto;
+                }
+
+                .content-button {
+                    width: 164px;
+                    height: 36px;
+                    margin: 32px auto 0;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+
+    .show {
+        margin: 104px auto 0;
+
+        .image {
+            position: unset;
+        }
+        
+        .title {
+            padding-top: 42px;
+            
+            div.emergence {
+                width: 258px;
+                margin: 0 auto;
+            }
+        }
+
+        .content {
+            width: 77.6vw;
+            margin: 24px auto 0;
+            max-width: none;
+            
+            .content-text {
+                font-size: 1.4rem;
+                line-height: 2;
+            }
+
+            .content-button {
+                width: 164px;
+                height: 36px;    
+                font-size: 1.2rem;
+                margin: 32px auto 0;
+                border-radius: 3px;
+            }
+        }
+    }
+}
